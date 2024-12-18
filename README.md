@@ -18,37 +18,17 @@ Welcome to **Duck Life Space**, an exciting game built with **Electron** and fea
 
 To get started with **Duck Life Space** on your local machine, follow these steps:
 
-### Prerequisites
 
-1. **Node.js**: Make sure you have **Node.js** installed on your system. If you don't have it, [download and install it here](https://nodejs.org/).
-    
-2. **Electron**: This project is powered by **Electron**, so make sure you have it installed.
+1. Navigate into the project Repo:
 
-### Steps
+   Download the installer for your device
+   run the installer, follow the steps to install
 
-1. Clone the repository to your local machine:
 
-    ```bash
-    git clone https://github.com/your-username/duck-life-space.git
-    ```
 
-2. Navigate into the project folder:
+3. To run the game locally:
 
-    ```bash
-    cd duck-life-space
-    ```
-
-3. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-4. To run the game locally:
-
-    ```bash
-    npm start
-    ```
+     Find the app installed, and run it.
 
 ---
 
