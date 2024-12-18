@@ -54,7 +54,7 @@ To get started with **Duck Life Space** on your local machine, follow these step
 
 ## 🌌 How to Play
 
-1. Open the game with `npm start`.
+1. Open the game.
 2. Start by choosing your duck and blasting off into space.
 3. Explore the universe and complete missions to level up.
 4. Collect points and unlock upgrades to enhance your duck's abilities.
@@ -62,31 +62,6 @@ To get started with **Duck Life Space** on your local machine, follow these step
 
 ---
 
-## 🛠️ Development
-
-If you want to contribute or modify the game, follow these steps to get set up for development:
-
-1. Fork the repo and clone your fork:
-
-    ```bash
-    git clone https://github.com/your-username/duck-life-space.git
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Start the development environment:
-
-    ```bash
-    npm start
-    ```
-
-4. Make your changes and create a pull request.
-
----
 
 ## 📑 License
 
