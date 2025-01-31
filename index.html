@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="3; url="mathplayground.com/duck5/index.html"> <!-- Redirect to Gmail -->
+  <meta http-equiv="refresh" content="3; url="mathplayground.com/duck5/index.html"> 
   <title>Loading...</title>
   <style>
-    /* Full-page loading container */
     .loading-container {
       position: fixed;
       top: 0;
@@ -16,11 +15,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #121212; /* Dark background */
+      background-color: #121212; 
       z-index: 9999;
     }
 
-    /* Loader circles animation */
     .loader {
       display: flex;
       gap: 10px;
@@ -29,7 +27,7 @@
     .circle {
       width: 15px;
       height: 15px;
-      background-color: #00f4b1; /* Green color for the loader */
+      background-color: #00f4b1; 
       border-radius: 50%;
       animation: bounce 1.2s infinite ease-in-out;
     }
@@ -46,7 +44,6 @@
       animation-delay: 0.4s;
     }
 
-    /* Bounce animation */
     @keyframes bounce {
       0%, 100% {
         transform: translateY(0);
@@ -56,16 +53,14 @@
       }
     }
 
-    /* Loading text styling */
     .loading-text {
       font-size: 20px;
       font-family: Arial, sans-serif;
-      color: #fff; /* White text color */
+      color: #fff;
       margin-top: 20px;
       animation: fadeIn 2s ease-out;
     }
 
-    /* Fade-in text effect */
     @keyframes fadeIn {
       0% {
         opacity: 0;
@@ -89,12 +84,10 @@
   <script>
     window.addEventListener('load', function () {
       setTimeout(function () {
-        // Hide the loading screen
         document.querySelector('.loading-container').style.display = 'none';
-        
-        // Redirect to Gmail after 3 seconds
+
         window.location.href = "https://games.crazygames.com/en_US/duck-life-space/index.html?v=1.315";  // Redirect to Gmail
-      }, 3000);  // Delay for 3 seconds
+      }, 3000); 
     });
   </script>
 </body>
