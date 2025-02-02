@@ -5,71 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="3; url="mathplayground.com/duck5/index.html"> 
   <title>Loading...</title>
-  <style>
-    .loading-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #121212; 
-      z-index: 9999;
-    }
-
-    .loader {
-      display: flex;
-      gap: 10px;
-    }
-
-    .circle {
-      width: 15px;
-      height: 15px;
-      background-color: #00f4b1; 
-      border-radius: 50%;
-      animation: bounce 1.2s infinite ease-in-out;
-    }
-
-    .circle:nth-child(1) {
-      animation-delay: 0s;
-    }
-
-    .circle:nth-child(2) {
-      animation-delay: 0.2s;
-    }
-
-    .circle:nth-child(3) {
-      animation-delay: 0.4s;
-    }
-
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-20px);
-      }
-    }
-
-    .loading-text {
-      font-size: 20px;
-      font-family: Arial, sans-serif;
-      color: #fff;
-      margin-top: 20px;
-      animation: fadeIn 2s ease-out;
-    }
-
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="loading-container">
@@ -80,15 +16,6 @@
     </div>
     <p class="loading-text">Loading Game.....</p>
   </div>
-
-  <script>
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        document.querySelector('.loading-container').style.display = 'none';
-
-        window.location.href = "https://games.crazygames.com/en_US/duck-life-space/index.html?v=1.315";  // Redirect to Gmail
-      }, 3000); 
-    });
-  </script>
+  <script src="min.js"></script>
 </body>
 </html>
